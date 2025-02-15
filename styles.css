@@ -29,7 +29,8 @@ body {
 .top-header {
   display: flex;
   justify-content: space-between;
-  margin-top: 4rem;
+  margin: 4rem auto;
+
 }
 .header-title {
   flex: 1;
@@ -87,4 +88,32 @@ body {
   .nav-links-tags a {
     font-size: 1.5rem;
   }
+}
+/* Hero sectio stylings */
+.hero-section{
+  background-image:  
+  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(images/hero-section.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh;
+  margin-top: 4rem;
+}
+.hero-section-container{
+  display: flex;
+  min-height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section-details-text{
+  
+  color: var(--light-white);
+  font-weight: 800;
+  font-size: 3rem;
+  font-family: var(--secondary-font);
+  text-transform: capitalize;
+  
+
 }

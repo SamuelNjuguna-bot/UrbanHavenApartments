@@ -175,7 +175,7 @@ body {
   margin-top: 4rem;
   padding: 1rem;
   margin-bottom: 1rem;
-  align-items: end;
+  align-items: endgi;
 }
 .view-more-details:hover{
   box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.46);
@@ -185,4 +185,21 @@ body {
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+.amenities-available{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+  justify-content: center;
+  min-height: 40vh;
+}
+.amenities-list{
+  padding-top: 2rem;
+}
+.amenities{
+    color: black;
+    font-family: var(--primary-font);
+    line-height: 4rem;
+    font-size: 2rem;
 }

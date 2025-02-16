@@ -203,3 +203,38 @@ body {
     line-height: 4rem;
     font-size: 2rem;
 }
+/* have your say stylings */
+.contact-form-doc{
+  display: flex;
+  margin-top: 2rem;
+  padding: 0;
+  min-height: 40vh;
+  justify-content: center;
+
+}
+.contact-us{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  
+}
+.contact-element{
+ display: flex;
+ gap: 2rem;
+
+}
+.contact-element-address{
+  display: flex;
+}
+.contact-label{
+  margin-right: 2rem;
+  color: black;
+  padding-top: 2rem;
+  border-radius: 5px;
+}
+.text-area{
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+  outline: none;
+}

@@ -134,23 +134,18 @@ body {
   gap: 2rem;
   justify-content: center;
 }
-.housing-unit-image-wrapper{
-
+.housing-unit-image-wrapper {
   width: 40vh;
   background-color: rgb(47, 43, 43);
   border-radius: 10px;
-  
-  
-
-  
 }
-.housing-unit-image-wrapper img{
+.housing-unit-image-wrapper img {
   height: 60%;
   width: 100%;
   object-fit: cover;
 }
 
-.other-details-text{
+.other-details-text {
   font-family: var(--secondary-font);
   color: var(--light-white);
   text-align: center;
@@ -158,83 +153,165 @@ body {
   font-weight: 700;
   font-size: 1.5rem;
 }
-.ksh{
+.ksh {
   color: rgb(220, 146, 8);
   font-weight: 900;
   font-size: 2rem;
 }
-.view-more{
-
+.view-more {
   display: flex;
   justify-content: center;
   align-items: center;
- 
-
 }
-.view-more-details{
+.view-more-details {
   margin-top: 4rem;
   padding: 1rem;
   margin-bottom: 1rem;
   align-items: endgi;
 }
-.view-more-details:hover{
-  box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.46);
-  -webkit-box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.46);
-  -moz-box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.46); ;
+.view-more-details:hover {
+  box-shadow: 10px 10px 5px 3px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 10px 10px 5px 3px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 10px 10px 5px 3px rgba(0, 0, 0, 0.46);
   border-radius: 5px;
   background-color: black;
   color: white;
   cursor: pointer;
 }
 
-.amenities-available{
+.amenities-available {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid red;
   justify-content: center;
   min-height: 40vh;
 }
-.amenities-list{
+.amenities-list {
   padding-top: 2rem;
 }
-.amenities{
-    color: black;
-    font-family: var(--primary-font);
-    line-height: 4rem;
-    font-size: 2rem;
+.amenities {
+  color: black;
+  font-family: var(--primary-font);
+  line-height: 4rem;
+  font-size: 2rem;
 }
-/* have your say stylings */
-.contact-form-doc{
-  display: flex;
-  margin-top: 2rem;
-  padding: 0;
+/* Contact Us Styling */
+.contact-us-details-section {
   min-height: 40vh;
-  justify-content: center;
-
+  margin-top: 2rem;
 }
-.contact-us{
+.contact-details {
+  background-color: black;
+  border-radius: 5px;
+  padding: 6rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.contact {
+  font-size: 2rem;
+  color: var(--light-white);
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+.contact-no {
+  font-size: 2rem;
+  color: blue;
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+.email {
+  font-size: 2rem;
+  color: var(--light-white);
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+.facebook{
+  font-size: 2rem;
+  color: var(--light-white);
+  font-family: var(--secondary-font);
+  text-align: center;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+/* Have Your Say Styling */
+.have-your-say {
+  border: 2 ox solid red;
+  margin-bottom: 4rem;
+}
+.customers-details {
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
-  
 }
-.contact-element{
- display: flex;
- gap: 2rem;
-
-}
-.contact-element-address{
+.customers-first-name {
   display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
-.contact-label{
-  margin-right: 2rem;
+.first-name {
   color: black;
-  padding-top: 2rem;
-  border-radius: 5px;
+  font-weight: 700;
+  font-family: var(--secondary-font);
 }
-.text-area{
-  margin-top: 2rem;
-  padding: 2rem;
+.customers-last-name {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+.last-name {
+  color: black;
+  font-weight: 700;
+  font-family: var(--secondary-font);
+}
+.customers-email {
+  display: flex;
+  gap: 6.5;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.customer-email {
+  color: black;
+  margin-right: 6.2rem;
+  font-weight: 700;
+  font-family: var(--secondary-font);
+}
+.message-feedback {
+  display: flex;
+  outline: none;
+  justify-content: center;
+  padding: 4rem;
+}
+.first-name-text {
+  padding: 0.5rem 4rem;
   border-radius: 5px;
   outline: none;
+}
+.last-name-text {
+  padding: 0.5rem 4rem;
+  border-radius: 5px;
+  outline: none;
+}
+.email-text {
+  padding: 0.5rem 4rem;
+  border-radius: 5px;
+  outline: none;
+}
+.message {
+  padding: 5rem 10rem;
+  border-radius: 5px;
+  outline: none;
+}
+/* About Author */
+.about-author {
+  display: flex;
+  background-color: rgb(52, 49, 49);
+  border-radius: 5px;
+  justify-content: center;
+}
+.details {
+  color: var(--light-white);
+  font-family: var(--secondary-font);
 }
